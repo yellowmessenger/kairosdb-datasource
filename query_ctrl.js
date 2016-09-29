@@ -321,9 +321,6 @@ define([
 
                 if (!_.isEmpty(errors)) {
                     this.target.errors.horAggregator = errors;
-                }else{
-                    this.addHorizontalAggregator();
-                    this.targetBlur();
                 }
             };
 
