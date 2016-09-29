@@ -362,11 +362,8 @@ define([
 
             query.aggregators = [];
 
-            console.log("Converting query");
-            console.log(target);
-
-            if (target.horizontalAggregators) {
-                _.each(target.horizontalAggregators, function (chosenAggregator) {
+            if (target.horAggregators) {
+                _.each(target.horAggregators, function (chosenAggregator) {
                     var returnedAggregator = {
                         name: chosenAggregator.name
                     };
