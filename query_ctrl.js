@@ -319,6 +319,8 @@ define([
                     }
                 }
 
+                console.log(this.target);
+
                 if (!_.isEmpty(errors)) {
                     this.target.errors.horAggregator = errors;
                 }else{
