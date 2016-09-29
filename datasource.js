@@ -362,8 +362,8 @@ define([
 
             query.aggregators = [];
 
-            if (target.horAggregators) {
-                _.each(target.horAggregators, function (chosenAggregator) {
+            if (target.horizontalAggregators) {
+                _.each(target.horizontalAggregators, function (chosenAggregator) {
                     var returnedAggregator = {
                         name: chosenAggregator.name
                     };
